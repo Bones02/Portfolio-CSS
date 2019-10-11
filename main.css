@@ -162,6 +162,7 @@ h3 {
 .connect p {
     color: black;
 }
+
 #link {
     display: flex;
     flex-direction: row;
@@ -169,6 +170,7 @@ h3 {
     margin: auto;
     width: 100vw;
 }
+
 .footer {
     background-color: gray;
     text-align: center;
