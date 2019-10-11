@@ -148,6 +148,13 @@ h3 {
     margin: auto;
 }
 
+.connect h2 {
+    color: black;
+}
+
+.connect p {
+    color: black;
+}
 #link {
     display: flex;
     flex-direction: row;
