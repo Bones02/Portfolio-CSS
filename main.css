@@ -139,6 +139,7 @@ h3 {
     justify-items: center;
     margin: auto;
     padding-bottom: 10px;
+    height: 200px;
 }
 
 #head {
@@ -229,7 +230,7 @@ a:hover {
     }
     
     .quizcard {
-        height: 150px;
+        height: 300px;
     }
 
     #head {
@@ -291,7 +292,7 @@ a:hover {
     }
     
     .quizcard {
-        height: 150px;
+        height: 300px;
         width: 55vw;
     }
     #head {
