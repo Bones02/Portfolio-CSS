@@ -100,7 +100,7 @@ h3 {
 }
 
 .button {
-    background-color: grey;
+    background-color: white;
     border: none;
     color: black;
     padding: 5px 10px;
@@ -122,8 +122,9 @@ h3 {
 }
 
 .projImg {
-    height: 200px;
-    width: 75vw;
+    height: 100px;
+    width: 25vw;
+    margin-top: 15px;
 }
 
 .quiz {
@@ -132,14 +133,48 @@ h3 {
 
 .quizcard {
     justify-content: center;
-    background-color: purple;
-    width: 75vw;
+    background-color: grey;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
+    width: 75vw;
     justify-items: center;
     margin: auto;
+    margin-bottom: 20px;
     padding-bottom: 10px;
-    height: 200px;
+    height: 300px;
+}
+.workout_tracker{
+    align-self: center;
+}
+.workout_card {
+    justify-content: center;
+    background-color: grey;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    height: 300px;
+}
+.recipe_finder {
+    align-self: center;
+}
+.recipe_card {
+    justify-content: center;
+    background-color: grey;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    justify-items: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    height: 300px;
 }
 
 #head {
@@ -226,11 +261,19 @@ a:hover {
     }
 
     .projImg {
-        height: 350px;
+        height: 150px;
+        width: 215px;
     }
     
     .quizcard {
-        height: 300px;
+        height: 400px;
+    }
+
+    .workout_card {
+        height: 400px;
+    }
+    .recipe_card {
+        height: 400px;
     }
 
     #head {
@@ -261,6 +304,7 @@ a:hover {
         text-align: left;
     }
   }
+
 @media screen and (min-width: 769px) {
     #banner {
         height: 800px;
@@ -270,6 +314,7 @@ a:hover {
         font-size: 20px;
         padding-left: 15%;
         padding-right: 15%;
+        text-align: center;
     }
     
     .button {
@@ -281,19 +326,25 @@ a:hover {
         width: 200px;
         margin-bottom: 60px;
     }
-    .projects {
-        width: 55vw;
-        padding-bottom: 30px;
-    }
-    
     .projImg {
-        height: 350px;
-        width: 55vw; 
+        height: 200px;
+        width: 250px; 
+        margin-top: 25px;
     }
-    
     .quizcard {
-        height: 300px;
-        width: 55vw;
+        height: 450px;
+        width: 75vw;
+        border-radius: 12px;
+    }
+    .workout_card {
+        height: 450px;
+        width: 75vw;
+        border-radius: 12px;
+    }
+    .recipe_card {
+        height: 450px;
+        width: 75vw;
+        border-radius: 12px;
     }
     #head {
         height: 200px;
@@ -303,5 +354,36 @@ a:hover {
     .connect {
         height: 500px;
         padding-top: 20px;
+
+    }
+}
+@media screen and (min-width: 1000px) {
+    .project_cards {
+        display: flex; 
+        flex-direction: row;
+        justify-content: center;  
+    }
+    .projects {
+        padding-bottom: 30px;
+    }
+    .projImg {
+        height: 200px;
+        width: 20vw; 
+        margin-top: 25px;
+    }
+    .quizcard {
+        height: 600px;
+        width: 28vw;
+        border-radius: 12px;
+    }
+    .workout_card {
+        height: 600px;
+        width: 28vw;
+        border-radius: 12px;
+    }
+    .recipe_card {
+        height: 600px;
+        width: 28vw;
+        border-radius: 12px;
     }
 }
